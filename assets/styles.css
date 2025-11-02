@@ -290,19 +290,20 @@ h1 {
    Responsividade Mobile
 ========================== */
 @media (max-width: 1024px) {
-    /* Ajusta o menu */
+    
+    
     .menu {
         gap: 1.5rem;
     }
-
+    
     h1 {
         font-size: 3rem;
     }
-
+    
     .cabecalho-sub-titulo {
         font-size: 1.3rem;
     }
-
+    
     .foto-perfil {
         width: 300px;
         height: 300px;
@@ -310,14 +311,17 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    /* Menu vertical para tablets/celular */
+    .navegacao {
+        position: relative;
+    }
+    
     .menu {
         flex-direction: column;
         gap: 1rem;
     }
 
     .cabecalho {
-        padding-top: 8rem;
+        padding-top: 5rem;
     }
 
     h1 {
@@ -441,4 +445,3 @@ h1 {
         padding: 0 0.5rem;
     }
 }
-
