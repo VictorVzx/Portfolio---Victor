@@ -285,3 +285,159 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+/* ==========================
+   Responsividade Mobile
+========================== */
+@media (max-width: 1024px) {
+    /* Ajusta o menu */
+    .menu {
+        gap: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.3rem;
+    }
+
+    .foto-perfil {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Menu vertical para tablets/celular */
+    .menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cabecalho {
+        padding-top: 10rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 15px 0;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* Sobre */
+    .sobre-titulo {
+        font-size: 2rem;
+    }
+
+    .sobre-paragrafo {
+        font-size: 1rem;
+    }
+
+    .sobre-caixa {
+        padding: 1.5rem;
+        backdrop-filter: blur(8px);
+    }
+
+    /* Projetos */
+    .projetos-titulo {
+        font-size: 2rem;
+    }
+
+    .projetos-caixa {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .projetos-card {
+        padding: 1rem;
+        backdrop-filter: blur(8px);
+    }
+
+    .caixa-textos-projeto {
+        padding: 1rem;
+    }
+
+    .info-projetos {
+        font-size: 1.2rem;
+    }
+
+    .paragrafo-projetos {
+        font-size: 0.95rem;
+        line-height: 1.2rem;
+    }
+
+    /* Redes */
+    .redes-card {
+        padding: 1.5rem;
+    }
+
+    .info-link {
+        font-size: 1.5rem;
+    }
+
+    /* Contato */
+    .contatos-titulo {
+        font-size: 2rem;
+    }
+
+    .formulario-contato {
+        padding: 1.5rem;
+    }
+
+    .campo-form {
+        padding: 0.8rem;
+    }
+
+    .botao-form {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1rem;
+    }
+
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sobre-titulo, .projetos-titulo, .contatos-titulo {
+        font-size: 1.5rem;
+    }
+
+    .sobre-paragrafo, .paragrafo-projetos {
+        font-size: 0.9rem;
+    }
+
+    .info-projetos {
+        font-size: 1rem;
+    }
+
+    .botao-form {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+    }
+
+    .projetos-caixa, .redes-caixa {
+        padding: 0 0.5rem;
+    }
+}
