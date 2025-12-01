@@ -1,1 +1,1 @@
-Acesse o portfolio clicando [aqui](https://victorvzx.github.io/Portfolio---Victor/)
+Acesse o portfolio clicando [aqui](https://portfoliovzx.vercel.app/)
