@@ -127,6 +127,11 @@ h1 {
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .projetos-card {
