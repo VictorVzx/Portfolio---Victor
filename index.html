@@ -1,177 +1,256 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Victor Compertino</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link type="image/png" sizes="16x16" rel="icon" href="./assets/imagens/icons/favicon.png">
-</head>
-<body>
-
-    <div class="particulas"> </div>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="./assets/imagens/icons/favicon.png"
+    />
+  </head>
+  <body>
+    <div class="particulas"></div>
 
     <nav class="navegacao">
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li>
-                <a href="#projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#redes" class="menu-link">Redes</a>
-            </li>
-            <li>
-                <a href="#contatos" class="menu-link">Contatos</a>
-            </li>
-        </ul>
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu-link">Início</a>
+        </li>
+        <li>
+          <a href="#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#redes" class="menu-link">Redes</a>
+        </li>
+        <li>
+          <a href="#contatos" class="menu-link">Contatos</a>
+        </li>
+      </ul>
     </nav>
     <main id="inicio" class="cabecalho">
-        <img src="assets/imagens/profile/bleach.jpg" alt="perfil" class="foto-perfil">
-        <h1>Victor Compertino</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+      <img
+        src="assets/imagens/profile/bleach.jpg"
+        alt="perfil"
+        class="foto-perfil"
+      />
+      <h1>Victor Compertino</h1>
+      <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
     </main>
-    
+
     <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre Mim</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-                Olá! Sou um desenvolvedor Front End aprendendo mais e mais todos os dias. Especificações: HTML, CSS, JS, conhecimentos necessarios com git, desenvolvendo conhecimentos em React JS e Node JS e conhecimentos básicos em Bancos de dados com PostgreSQL.
-            </p>
-        </div>
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Olá! Sou um desenvolvedor Front End aprendendo mais e mais todos os
+          dias. Especificações: HTML, CSS, JS, conhecimentos necessarios com
+          git, desenvolvendo conhecimentos em React JS e Node JS e conhecimentos
+          básicos em Bancos de dados com PostgreSQL.
+        </p>
+      </div>
     </section>
 
     <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-            <a href="https://victorvzx.github.io/Catalogo-Alfa-Devs/">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/alfa-devs.png" alt="alfa devs" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Catálogo Alfa Devs</h3>
-                        <p class="paragrafo-projetos">Catálogo de Jogos da turma do 2º Ano de Desenvolvimento de Jogos Digitais do CETI Petrônio Portela.</p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://discord.com/oauth2/authorize?client_id=1440503826917363772&permissions=8&integration_type=0&scope=bot">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/overhand-bot.png" alt="overhand" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Overhand Bot</h3>
-                        <p class="paragrafo-projetos">Bot do Discord feito em Python, totalmente inspirado na identidade da minha gatinha Overhand :></p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://loginvzx.vercel.app/">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/tela-login.png" alt="login" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Tela de Login</h3>
-                        <p class="paragrafo-projetos">Tela de login feita em HTML e CSS.<p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://forecastvzx.vercel.app/">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/forecast.png" alt="forecast" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Previsão do Tempo</h3>
-                        <p class="paragrafo-projetos">App de Previsão do tempo feito em React.<p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://feedback-testes-site.onrender.com/capa.html">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/feedback.png" alt="feedback" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Feedback Feira das Profissões</h3>
-                        <p class="paragrafo-projetos">Site de feedback para a feira das profissões do Premen feito em HTML, CSS, JS, API Backend com NODE JS e PostgreSQL (Database).<p>
-                    </div>
-                </div>
-            </a>
-            <a href="https://ticketvzx.vercel.app/">
-                <div class="projetos-card">
-                    <img src="assets/imagens/projects/gerador-tickets.png" alt="random" class="projetos-imagem">
-                    <div class="caixa-textos-projeto">
-                        <h3 class="info-projetos">Gerador de Tickets</h3>
-                        <p class="paragrafo-projetos">App gerador de números aleatorios de 1 a 99 feito em React JS.<p>
-                    </div>
-                </div>
-            </a>
-
-        </div>
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <a href="https://victorvzx.github.io/Catalogo-Alfa-Devs/">
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/alfa-devs.png"
+              alt="alfa devs"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Catálogo Alfa Devs</h3>
+              <p class="paragrafo-projetos">
+                Catálogo de Jogos da turma do 2º Ano de Desenvolvimento de Jogos
+                Digitais do CETI Petrônio Portela.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://discord.com/oauth2/authorize?client_id=1440503826917363772&permissions=8&integration_type=0&scope=bot"
+        >
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/overhand-bot.png"
+              alt="overhand"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Overhand Bot</h3>
+              <p class="paragrafo-projetos">
+                Bot do Discord feito em Python, totalmente inspirado na
+                identidade da minha gatinha Overhand :>
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="https://loginvzx.vercel.app/">
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/tela-login.png"
+              alt="login"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Tela de Login</h3>
+              <p class="paragrafo-projetos">
+                Tela de login feita em HTML e CSS.
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </a>
+        <a href="https://forecastvzx.vercel.app/">
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/forecast.png"
+              alt="forecast"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Previsão do Tempo</h3>
+              <p class="paragrafo-projetos">
+                App de Previsão do tempo feito em React.
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </a>
+        <a href="https://feedback-testes-site.onrender.com/capa.html">
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/feedback.png"
+              alt="feedback"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Feedback Feira das Profissões</h3>
+              <p class="paragrafo-projetos">
+                Site de feedback para a feira das profissões do Premen feito em
+                HTML, CSS, JS, API Backend com NODE JS e PostgreSQL (Database).
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </a>
+        <a href="https://ticketvzx.vercel.app/">
+          <div class="projetos-card">
+            <img
+              src="assets/imagens/projects/gerador-tickets.png"
+              alt="random"
+              class="projetos-imagem"
+            />
+            <div class="caixa-textos-projeto">
+              <h3 class="info-projetos">Gerador de Tickets</h3>
+              <p class="paragrafo-projetos">
+                App gerador de números aleatorios de 1 a 99 feito em React JS.
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </a>
+      </div>
     </section>
 
     <section id="redes" class="projetos">
-    <h2 class="projetos-titulo">Minhas Redes</h2>
+      <h2 class="projetos-titulo">Minhas Redes</h2>
 
-    <div class="projetos-caixa">
-        <div class="redes-card">
-            <img src="assets/imagens/icons/github.jpeg" alt="github" class="redes-imagem">
+      <div class="redes-caixa">
+        <a href="https://github.com/VictorVzx">
+          <div class="redes-card">
+            <img
+              src="assets/imagens/icons/github.jpeg"
+              alt="github"
+              class="redes-imagem"
+            />
             <div class="caixa-textos-projeto">
-                <a href="https://github.com/VictorVzx" class="info-link">GitHub</a>
-                <p class="paragrafo-projetos">Veja mais projetos meus aqui!</p>
+              <h2>Github</h2>
+              <p class="paragrafo-projetos">Veja mais projetos meus aqui!</p>
             </div>
-        </div>
+          </div>
+        </a>
 
-        <div class="redes-card">
-            <img src="assets/imagens/icons/instagram.jpeg" alt="instagram" class="redes-imagem">
+        <a href="https://instagram.com/vvzx_victor">
+          <div class="redes-card">
+            <img
+              src="assets/imagens/icons/instagram.jpeg"
+              alt="instagram"
+              class="redes-imagem"
+            />
             <div class="caixa-textos-projeto">
-                <a href="https://instagram.com/vvzx_victor" class="info-link">Instagram</a>
-                <p class="paragrafo-projetos">Meu Perfil do Instagram</p>
+              <h2>Instagram</h2>
+              <p class="paragrafo-projetos">Meu Perfil do Instagram</p>
             </div>
-        </div>
+          </div>
+        </a>
 
-        <div class="redes-card">
-            <img src="assets/imagens/icons/linkedin.png" alt="linkedin" class="redes-imagem">
+        <a href="https://www.linkedin.com/in/victor-compertino-a35861390/">
+          <div class="redes-card">
+            <img
+              src="assets/imagens/icons/linkedin.png"
+              alt="linkedin"
+              class="redes-imagem"
+            />
             <div class="caixa-textos-projeto">
-                <a href="https://www.linkedin.com/in/victor-compertino-a35861390/" class="info-link">LinkedIn</a>
-                <p class="paragrafo-projetos">Meu perfil Profissional!</p>
+              <h2>LinkedIn</h2>
+              <p class="paragrafo-projetos">Meu perfil Profissional!</p>
             </div>
-        </div>
-    </div>
-</section>
-
+          </div>
+        </a>
+      </div>
+    </section>
 
     <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Entre em Contato</h2>
-        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" id="nome" class="campo-form">
-            </div>
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+      <form
+        class="formulario-contato"
+        id="formulario"
+        onsubmit="enviarWhats(event)"
+      >
+        <div class="grupo-form">
+          <input placeholder="Nome" id="nome" class="campo-form" />
+        </div>
 
-            <div class="grupo-form">
-                <textarea placeholder="Digite sua Mensagem" class="campo-form" id="mensagem"></textarea>
-            </div>
+        <div class="grupo-form">
+          <textarea
+            placeholder="Digite sua Mensagem"
+            class="campo-form"
+            id="mensagem"
+          ></textarea>
+        </div>
 
-            <button type="submit" class="botao-form" id="mensagem">Enviar Mensagem</button>
-        </form>
+        <button type="submit" class="botao-form" id="mensagem">
+          Enviar Mensagem
+        </button>
+      </form>
     </section>
 
     <script>
-        function enviarWhats(event) {
-            event.preventDefault();
+      function enviarWhats(event) {
+        event.preventDefault();
 
-            const nome = document.getElementById('nome').value;
-            const mensagem = document.getElementById('mensagem').value;
-            const telefone = '5589994677751';
-    
-            const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
-            const msgFormatada = encodeURIComponent(texto);
-    
-            const url = `https://wa.me/${telefone}/?text=${msgFormatada}`;
-            
-            console.log(url);
+        const nome = document.getElementById("nome").value;
+        const mensagem = document.getElementById("mensagem").value;
+        const telefone = "5589994677751";
 
-            window.open(url, '_blank');
-        }
+        const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
+        const msgFormatada = encodeURIComponent(texto);
 
+        const url = `https://wa.me/${telefone}/?text=${msgFormatada}`;
+
+        console.log(url);
+
+        window.open(url, "_blank");
+      }
     </script>
-    
-</body>
+  </body>
 </html>
-
