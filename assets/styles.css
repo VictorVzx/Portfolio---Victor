@@ -288,45 +288,49 @@ h1 {
 }
 
 .cv-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 150px;
 }
 
 .curriculo {
-    width: 420px;
-    padding: 30px 40px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    border: 1px solid var(--vidro);
+  width: 420px;
+  padding: 30px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid var(--vidro);
 }
 
 .curriculo h2 {
-    text-align: center;
-    text-shadow: 0 0 3px var(--claro);
+  text-align: center;
+  text-shadow: 0 0 3px var(--claro);
 }
 
 .curriculo button {
-    width: 100%;
-    height: 40px;
-    outline: none;
-    border: 1px solid var(--claro);
-    color: white;
-    font-weight: 500;
-    background-color: transparent;
-    border-radius: 10px;
-    margin: 20px 0 10px 0;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid var(--claro);
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .curriculo button:hover {
-    background-color: white;
-    color: black;
-    transform: translateY(-3px);
-    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4);
+  background-color: white;
+  color: black;
+  transform: translateY(-3px);
+  box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+.curriculo button:active {
+  transform: translateY(3px);
 }
 
 .particulas {
@@ -372,6 +376,52 @@ h1 {
 
   .cabecalho-sub-titulo {
     font-size: 1.3rem;
+  }
+
+  .cv-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 150px;
+  }
+
+  .curriculo {
+    width: 420px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    border: 1px solid var(--vidro);
+  }
+
+  .curriculo h2 {
+    text-align: center;
+    text-shadow: 0 0 3px var(--claro);
+  }
+
+  .curriculo button {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid var(--claro);
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .curriculo button:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(0);
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4);
+  }
+
+  .curriculo button:active {
+    transform: translateY(3px);
   }
 
   .foto-perfil {
@@ -456,6 +506,31 @@ h1 {
   .redes-card {
     padding: 1.5rem;
   }
+
+  .curriculo button {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid var(--claro);
+  color: white;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 20px 0 10px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.curriculo button:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(0);
+  box-shadow: 0 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+.curriculo button:active {
+  transform: translateY(3px);
+}
 
   .info-link {
     font-size: 1.5rem;
