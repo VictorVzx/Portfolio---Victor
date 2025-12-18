@@ -262,21 +262,6 @@
       </form>
     </section>
 
-    <script>
-      function enviarWhats(event) {
-        event.preventDefault();
-
-        const nome = document.getElementById("nome").value;
-        const mensagem = document.getElementById("mensagem").value;
-        const telefone = "5589994677751";
-
-        const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
-        const msgFormatada = encodeURIComponent(texto);
-
-        const url = `https://wa.me/${telefone}/?text=${msgFormatada}`;
-
-        window.open(url, "_blank");
-      }
-    </script>
+    <script src="dist/app.js"></script>
   </body>
 </html>
