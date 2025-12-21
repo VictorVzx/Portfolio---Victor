@@ -11,8 +11,8 @@ function enviarWhats(event: Event): void {
         return;
     }
 
-    const nome: string = nomeInput.value;
-    const mensagem: string = mensagemInput.value;
+    const nome: string = nomeInput.value.trim();
+    const mensagem: string = mensagemInput.value.trim();
 
     const telefone: string = "5589994677751";
     const texto: string = `Olá! Me chamo ${nome}, ${mensagem}`;

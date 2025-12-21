@@ -7,8 +7,8 @@ function enviarWhats(event) {
         console.error("Campos não encontrados no DOM");
         return;
     }
-    const nome = nomeInput.value;
-    const mensagem = mensagemInput.value;
+    const nome = nomeInput.value.trim();
+    const mensagem = mensagemInput.value.trim();
     const telefone = "5589994677751";
     const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
     const msgFormatada = encodeURIComponent(texto);
