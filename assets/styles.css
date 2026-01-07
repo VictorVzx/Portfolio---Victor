@@ -99,7 +99,9 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  color: var(--primaria);
+  background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
   margin: 20px;
 }
