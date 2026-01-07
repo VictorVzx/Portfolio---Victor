@@ -22,8 +22,6 @@ body {
   background-color: var(--escuro);
   color: var(--claro);
   height: 100dvh;
-  height: 100vh;
-  width: 100vw;
 }
 
 .navegacao {
